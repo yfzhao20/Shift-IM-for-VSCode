@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="绘图.svg"
+   inkscape:export-filename="C:\Users\zhaoyifei5053\Desktop\绘图.png"
+   inkscape:export-xdpi="256"
+   inkscape:export-ydpi="256"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-page="true"
+     inkscape:zoom="1.5"
+     inkscape:cx="264.33333"
+     inkscape:cy="283.66667"
+     inkscape:window-width="1406"
+     inkscape:window-height="937"
+     inkscape:window-x="576"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g93660"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs2">
+    <rect
+       x="76.666667"
+       y="182"
+       width="204.66667"
+       height="193.66276"
+       id="rect48484" />
+  </defs>
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g93660"
+       transform="matrix(1.2037038,0,0,1.2037038,-52.148173,-52.148173)">
+      <path
+         style="fill:#f2f2f2;fill-opacity:1;stroke:#0064ff;stroke-width:3.13535;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 51.417358,101.88903 c 4.806407,-4.365394 19.671244,-4.664206 19.671244,-4.664206 H 266.34394 L 305.59592,376.41096 H 76.188569 c 0,0 -19.482531,0.44035 -25.499779,-5.33052 -5.703907,-5.47035 -4.371388,-22.32156 -4.371388,-22.32156 V 119.37981 c 0,0 0.418539,-13.23891 5.099956,-17.49078"
+         id="path2744-6"
+         sodipodi:nodetypes="cccccaccc" />
+      <path
+         style="fill:#0064ff;fill-opacity:1;stroke:#f2f2f2;stroke-width:2.92097;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 461.69249,408.8712 c -3.88586,4.36904 -15.90368,4.66811 -15.90368,4.66811 l -173.19212,1.33334 -41.9977,-280.75289 h 211.06663 c 0,0 15.75112,-0.44071 20.6159,5.33497 4.61146,5.47493 3.53416,22.34023 3.53416,22.34023 v 229.57083 c 0,0 -0.33839,13.24998 -4.12319,17.50541"
+         id="path2744"
+         sodipodi:nodetypes="cccccaccc" />
+      <path
+         style="fill:#0032b4;stroke:#c8c8c8;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+         d="m 232.43232,132.64846 35.36189,-36.960004 7.80478,36.960004"
+         id="path4705"
+         sodipodi:nodetypes="ccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:170.667px;line-height:1.25;font-family:sans-serif;fill:#f2f2f2;fill-opacity:1;stroke:none"
+         x="272.26184"
+         y="318.15115"
+         id="text8377"><tspan
+           sodipodi:role="line"
+           id="tspan8375"
+           x="272.26184"
+           y="318.15115"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:170.667px;font-family:'Latin Modern Mono';-inkscape-font-specification:'Latin Modern Mono'">EN</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:170.667px;line-height:1.25;font-family:sans-serif;fill:#0064ff;fill-opacity:1;stroke:none"
+         x="62.428791"
+         y="303.48843"
+         id="text84775"><tspan
+           sodipodi:role="line"
+           id="tspan84773"
+           x="62.428791"
+           y="303.48843"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:170.667px;font-family:'Source Han Serif SC';-inkscape-font-specification:'Source Han Serif SC';fill:#0064ff;fill-opacity:1">中</tspan></text>
+    </g>
+  </g>
+</svg>
