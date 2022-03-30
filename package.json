@@ -2,7 +2,7 @@
   "name": "shift-im-for-math",
   "displayName": "Shift IM for Math",
   "description": "An extension for automatically shift IM(Input Method) condition. Make it easier to input LaTeX in VSCode.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "input method",
     "latex",
@@ -21,7 +21,7 @@
   "categories": [
     "Other"
   ],
-  "publisher": "YF-Zhao",
+  "publisher": "yfzhao",
   "icon": "images/icon.ico",
   "activationEvents": [
     "onLanguage:markdown",
@@ -29,7 +29,7 @@
   ],
   "main": "./src/extension.js",
   "extensionDependencies": [
-    "draivin.hscopes"
+    "yfzhao.hscopes-booster"
   ],
   "scripts": {
     "lint": "eslint .",

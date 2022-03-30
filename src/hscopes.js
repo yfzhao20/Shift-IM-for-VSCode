@@ -1,7 +1,7 @@
 "use strict";
 
 const vscode = require('vscode');
-const hscopes = vscode.extensions.getExtension('draivin.hscopes');
+const hscopes = vscode.extensions.getExtension('yfzhao.hscopes-booster');
 
 function getScope(document, position) {
     if (!hscopes || !document || !position) {
