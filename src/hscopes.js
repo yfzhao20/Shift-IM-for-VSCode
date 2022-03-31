@@ -9,7 +9,7 @@ function getScope(document, position) {
         return undefined
     }
     else {
-        return hscopes.exports.getScopeAt(document, position).scopes;
+        return hscopes?.exports?.getScopeAt(document, position)?.scopes;
     }
 }
 
