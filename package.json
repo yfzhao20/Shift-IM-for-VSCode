@@ -1,13 +1,49 @@
 {
   "name": "shift-im-for-math",
   "displayName": "Shift IM for Math",
-  "description": "An extension for automatically shift IM(Input Method) condition. Make it easier to input LaTeX in VSCode.",
-  "version": "0.0.4",
+  "description": "An extension for automatically shift IM(Input Method) mode. Make it easier to input LaTeX in VSCode.",
+  "version": "0.0.6",
   "keywords": [
     "input method",
     "latex",
     "markdown"
   ],
+  "os": [
+    "win32"
+  ],
+  "contributes": {
+    "commands":[
+      {
+        "command": "shiftIm.debug",
+        "title": "Shift IM: Debug"
+      }
+    ],
+    "configuration": {
+        "title": "Shift IM",
+        "properties": {
+          "Settings.ChineseModeCode":{
+            "type":"number",
+            "default":1025,
+            "description": "Set Chinese mode code. You can get the code by executing 'shiftIm.getImCode' when in Chinese mode. Default 1025"
+          },
+          "Settings.EnglishModeCode":{
+            "type":"number",
+            "default":0,
+            "description": "Set English mode code. You can get the code by executing 'shiftIm.getImCode' when in English mode. Default 0"
+          },
+          "Settings.GetParam":{
+            "type":"number",
+            "default": 1,
+            "description": "wParam: IMC_GETCONVERSIONMODE. Default 0x001 (1)"
+          },
+          "Settings.SetParam":{
+            "type":"number",
+            "default": 2,
+            "description": "wParam: IMC_SETCONVERSIONMODE. Default 0x002 (2)"
+          }
+        }
+      }
+  },
   "preview": true,
   "engines": {
     "vscode": "^1.54.0"
