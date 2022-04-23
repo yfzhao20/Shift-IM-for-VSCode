@@ -20,8 +20,8 @@ function activate(context) {
         toggleImeCondition(e.textEditor.document, e.selections[0].active)
     )
     vscode.workspace.onDidChangeConfiguration(() => {
-        cnLParam = vscode.workspace.getConfiguration().get("Settings.ChineseModeCode") && 1025
-        enLParam = vscode.workspace.getConfiguration().get("Settings.EnglishModeCode") && 0
+        cnLParam = vscode.workspace.getConfiguration().get("Settings.ChineseModeCode") ?? 1025
+        enLParam = vscode.workspace.getConfiguration().get("Settings.EnglishModeCode") ?? 0
         getWParam = vscode.workspace.getConfiguration().get("Settings.GetParam") ?? 0x001
         setWParam = vscode.workspace.getConfiguration().get("Settings.SetParam") ?? 0x002
     })

@@ -14,7 +14,7 @@ function getScope(document, position) {
         console.log(`function "getScope" causes error.`)
         return undefined
     }
-    else{
+    else {
         return hscopes?.exports?.getScopeAt(document, position)?.scopes;
     }
 }
