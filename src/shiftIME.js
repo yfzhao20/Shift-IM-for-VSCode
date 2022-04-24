@@ -19,11 +19,11 @@ function activate(context) {
     vscode.window.onDidChangeTextEditorSelection((e) =>
         toggleImeCondition(e.textEditor.document, e.selections[0].active)
     )
-    vscode.workspace.onDidChangeConfiguration(() => {
-        cnLParam = vscode.workspace.getConfiguration().get("Settings.ChineseModeCode") ?? 1025
-        enLParam = vscode.workspace.getConfiguration().get("Settings.EnglishModeCode") ?? 0
-        getWParam = vscode.workspace.getConfiguration().get("Settings.GetParam") ?? 0x001
-        setWParam = vscode.workspace.getConfiguration().get("Settings.SetParam") ?? 0x002
+    vscode.workspace.onDidChangeConfiguration((e) => {
+        e && e.affectsConfiguration("Settings.ChineseModeCode") && (cnLParam = vscode.workspace.getConfiguration().get("Settings.ChineseModeCode") ?? 1025)
+        e && e.affectsConfiguration("Settings.EnglishModeCode") && (enLParam = vscode.workspace.getConfiguration().get("Settings.EnglishModeCode") ?? 0)
+        e && e.affectsConfiguration("Settings.GetParam") && (getWParam = vscode.workspace.getConfiguration().get("Settings.GetParam") ?? 0x001)
+        e && e.affectsConfiguration("Settings.SetParam") && (setWParam = vscode.workspace.getConfiguration().get("Settings.SetParam") ?? 0x002)
     })
     context.subscriptions.push(
         vscode.commands.registerCommand('shiftIm.debug',im_debug)
@@ -70,7 +70,6 @@ function toggleImeCondition(document, position) {
         return;
     // Else: 
     // in math environment => to EN ; Else => to CN
-    // setIMEConversionMode(currentInMath ? enCode : cnCode)
     imcController(setWParam, currentInMath ? enLParam : cnLParam)
     previousInMath = currentInMath;
 }
